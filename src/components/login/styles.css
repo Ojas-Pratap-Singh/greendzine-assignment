@@ -1,0 +1,33 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 1.5rem;
+  background-color: var(--black);
+}
+.logo {
+  width: 90px;
+  height: 90px;
+}
+input {
+  width: 238px;
+  height: 42px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  background: #1f191966;
+}
+.btn {
+  padding: 0.8rem 6.4rem;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px solid #8cff0026;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+}
+.text {
+  color: #36a546;
+}
